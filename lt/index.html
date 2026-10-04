@@ -27,7 +27,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-logo" aria-label="DP CORPORATION pradinis">
-        DP <span class="brand-dot"></span> CORPORATION
+        <img src="https://i.postimg.cc/jS3HP3J8/dp-corporation-logo.png" alt="DP CORPORATION" class="logo-img" width="38" height="38">
+        <span>DP | CORPORATION</span>
       </a>
 
       <nav class="nav-desktop" aria-label="Pagrindinė navigacija">
@@ -83,39 +84,32 @@
         </div>
 
         <div class="hero-visual">
-          <div class="floating-stack">
-            <div class="photo-card card-main">
+          <div class="stack-carousel" aria-label="Nuotraukų karuselė su Dominik Šuškevič darbais">
+            <div class="stack-slide pos-0" data-index="0">
               <img src="https://i.postimg.cc/B6Rsqhp9/winter-album-sventa-13.jpg" alt="Žiemos fotografija Kaune" width="580" height="720">
             </div>
-            <div class="photo-card card-secondary">
-              <img src="https://i.postimg.cc/FKvBSf85/vdu-botanikos-sodas-02.jpg" alt="Botanikos sodo estetika" width="480" height="620">
+            <div class="stack-slide pos-1" data-index="1">
+              <img src="https://i.postimg.cc/FKvBSf85/vdu-botanikos-sodas-02.jpg" alt="Botanikos sodo estetika" width="580" height="720">
             </div>
-            <div class="card-badge-floating">
-              <span class="badge-dot"></span>
-              Patvirtinta kūrėjo ekosistema
+            <div class="stack-slide pos-2" data-index="2">
+              <img src="https://i.postimg.cc/FKJ0hGDh/Love.jpg" alt="Kinematografinis portretas" width="580" height="720">
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="stack-slide pos-hidden" data-index="3">
+              <img src="https://i.postimg.cc/X7HTSW7M/street-nature-21.jpg" alt="Gamtos ir gatvės estetika" width="580" height="720">
+            </div>
+            <div class="stack-slide pos-hidden" data-index="4">
+              <img src="https://i.postimg.cc/jqck7dQB/sventa-08.jpg" alt="Autorinis vizualinis archyvas" width="580" height="720">
+            </div>
 
-    <section class="gallery-strip">
-      <div class="container">
-        <div class="gallery-scroll">
-          <div class="gallery-thumb">
-            <img src="https://i.postimg.cc/B6Rsqhp9/winter-album-sventa-13.jpg" alt="Žiemos albumas" loading="lazy">
-          </div>
-          <div class="gallery-thumb">
-            <img src="https://i.postimg.cc/FKvBSf85/vdu-botanikos-sodas-02.jpg" alt="Botanikos sodo darbai" loading="lazy">
-          </div>
-          <div class="gallery-thumb">
-            <img src="https://i.postimg.cc/FKJ0hGDh/Love.jpg" alt="Kinematografinis portretas" loading="lazy">
-          </div>
-          <div class="gallery-thumb">
-            <img src="https://i.postimg.cc/X7HTSW7M/street-nature-21.jpg" alt="Gamtos ir gatvės estetika" loading="lazy">
-          </div>
-          <div class="gallery-thumb">
-            <img src="https://i.postimg.cc/jqck7dQB/sventa-08.jpg" alt="Autorinis vizualinis archyvas" loading="lazy">
+            <div class="stack-controls">
+              <button class="stack-btn stack-prev" aria-label="Ankstesnė skaidrė">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <div class="stack-dots"></div>
+              <button class="stack-btn stack-next" aria-label="Kita skaidrė">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -263,7 +257,10 @@
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <div class="brand-logo">DP <span class="brand-dot"></span> CORPORATION</div>
+          <div class="brand-logo">
+            <img src="https://i.postimg.cc/jS3HP3J8/dp-corporation-logo.png" alt="DP CORPORATION" class="logo-img" width="38" height="38">
+            <span>DP | CORPORATION</span>
+          </div>
           <p>
             Kūrybinė skaitmeninė ekosistema ir centralizuotas portfelių centras. Įkūrėjas ir režisierius: Dominik Šuškevič.
           </p>
@@ -280,7 +277,7 @@
       <div class="footer-bottom">
         <p>&copy; 2026 DP | CORPORATION. Visos teisės saugomos.</p>
         <div class="footer-links">
-          <a href="../privacy.html">Privatumo politika</a>
+          <a href="privacy.html">Privatumo politika</a>
         </div>
       </div>
     </div>

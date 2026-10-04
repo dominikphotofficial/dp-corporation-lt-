@@ -11,6 +11,11 @@
     <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://corporation.dominikphotofficial.lt/" />
     <image:image>
+      <image:loc>https://i.postimg.cc/jS3HP3J8/dp-corporation-logo.png</image:loc>
+      <image:title>DP CORPORATION Official Logo</image:title>
+      <image:caption>DP CORPORATION logo and brand emblem</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://i.postimg.cc/B6Rsqhp9/winter-album-sventa-13.jpg</image:loc>
       <image:title>DP CORPORATION Winter Cinematic Photography Kaunas</image:title>
       <image:caption>Dominik Šuškevič fine art and editorial photography Kaunas Lithuania</image:caption>
@@ -53,9 +58,19 @@
     <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/" />
   </url>
   <url>
-    <loc>https://corporation.dominikphotofficial.lt/privacy.html</loc>
+    <loc>https://corporation.dominikphotofficial.lt/en/privacy.html</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotofficial.lt/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/privacy.html" />
+  </url>
+  <url>
+    <loc>https://corporation.dominikphotofficial.lt/lt/privacy.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotofficial.lt/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/privacy.html" />
   </url>
 </urlset>
