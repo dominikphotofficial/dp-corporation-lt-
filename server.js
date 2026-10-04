@@ -11,6 +11,10 @@ const HOST = '0.0.0.0';
 
 app.use(express.static(__dirname, { extensions: ['html'] }));
 
+app.get('/en*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'en', 'index.html'));
+});
+
 app.get('/lt*', (req, res) => {
   res.sendFile(path.join(__dirname, 'lt', 'index.html'));
 });

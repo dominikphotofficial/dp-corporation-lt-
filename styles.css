@@ -82,7 +82,7 @@ button {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border-light);
@@ -217,11 +217,6 @@ button {
 
 .mobile-menu.open {
   display: flex;
-}
-
-.mobile-menu .nav-link {
-  font-size: 1.05rem;
-  padding: 0.5rem 0;
 }
 
 .hero-section {
@@ -406,6 +401,37 @@ button {
   transform: rotate(6deg) translate(8px, 4px);
 }
 
+.gallery-strip {
+  padding: 2.5rem 0 1rem;
+}
+
+.gallery-scroll {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+}
+
+.gallery-thumb {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  transition: var(--transition);
+}
+
+.gallery-thumb:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+}
+
+.gallery-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .section-wrapper {
   padding: 5rem 0;
 }
@@ -478,38 +504,33 @@ button {
 
 .linktree-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.15rem;
 }
 
 .linktree-card {
   background-color: var(--bg-white);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  gap: 1.25rem;
+  gap: 1rem;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   position: relative;
 }
 
 .linktree-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
   border-color: var(--primary);
 }
 
-.card-top {
+.card-left {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.card-info {
-  flex: 1;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
 .card-tag {
@@ -524,7 +545,7 @@ button {
   border-radius: var(--radius-full);
   background-color: var(--primary-subtle);
   color: var(--primary);
-  margin-bottom: 0.65rem;
+  align-self: flex-start;
 }
 
 .card-tag.tag-primary {
@@ -533,22 +554,22 @@ button {
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   font-weight: 700;
   color: var(--text-dark);
-  line-height: 1.35;
-  margin-bottom: 0.4rem;
+  line-height: 1.3;
 }
 
-.card-summary {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  line-height: 1.5;
+.card-domain {
+  font-family: ui-monospace, monospace;
+  font-size: 0.76rem;
+  color: var(--text-light);
+  font-weight: 500;
 }
 
 .card-icon-arrow {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--bg-slate);
   border: 1px solid var(--border-light);
@@ -565,23 +586,6 @@ button {
   color: #ffffff;
   border-color: var(--primary);
   transform: translateX(3px) translateY(-3px);
-}
-
-.card-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid var(--border-subtle);
-  padding-top: 0.85rem;
-  font-size: 0.8rem;
-  color: var(--text-light);
-}
-
-.card-domain {
-  font-family: ui-monospace, monospace;
-  font-size: 0.76rem;
-  color: var(--primary);
-  font-weight: 600;
 }
 
 .about-box {
@@ -639,7 +643,7 @@ button {
 .site-footer {
   background-color: #ffffff;
   border-top: 1px solid var(--border-light);
-  padding: 4rem 0 2rem;
+  padding: 3.5rem 0 2rem;
   margin-top: auto;
 }
 
@@ -649,7 +653,7 @@ button {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -767,6 +771,9 @@ button {
     width: 200px;
     height: 260px;
   }
+  .gallery-scroll {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .about-grid {
     grid-template-columns: 1fr;
     gap: 2.5rem;
@@ -779,6 +786,9 @@ button {
   }
   .mobile-toggle {
     display: flex;
+  }
+  .gallery-scroll {
+    grid-template-columns: repeat(2, 1fr);
   }
   .linktree-grid {
     grid-template-columns: 1fr;

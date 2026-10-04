@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://corporation.dominikphotoofficial.lt/</loc>
+    <loc>https://corporation.dominikphotofficial.lt/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotoofficial.lt/" />
-    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotoofficial.lt/lt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotofficial.lt/en/" />
+    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://corporation.dominikphotofficial.lt/" />
+    <image:image>
+      <image:loc>https://i.postimg.cc/B6Rsqhp9/winter-album-sventa-13.jpg</image:loc>
+      <image:title>DP CORPORATION Winter Cinematic Photography Kaunas</image:title>
+      <image:caption>Dominik Šuškevič fine art and editorial photography Kaunas Lithuania</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.postimg.cc/FKvBSf85/vdu-botanikos-sodas-02.jpg</image:loc>
+      <image:title>Botanical Garden Nature Aesthetics Kaunas</image:title>
+      <image:caption>Architectural nature aesthetics and visual storytelling by Dominik Šuškevič</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.postimg.cc/FKJ0hGDh/Love.jpg</image:loc>
+      <image:title>Cinematic Editorial Portrait Love</image:title>
+      <image:caption>Commercial and artistic portrait photography portfolio</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.postimg.cc/X7HTSW7M/street-nature-21.jpg</image:loc>
+      <image:title>Street Nature Minimalist Photography</image:title>
+      <image:caption>Minimalist composition and film photography in Kaunas</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.postimg.cc/jqck7dQB/sventa-08.jpg</image:loc>
+      <image:title>Visual Chronicle Fine Art Photography</image:title>
+      <image:caption>DP CORPORATION visual media and cinema archives</image:caption>
+    </image:image>
   </url>
   <url>
-    <loc>https://corporation.dominikphotoofficial.lt/lt/</loc>
+    <loc>https://corporation.dominikphotofficial.lt/en/</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotoofficial.lt/" />
-    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotoofficial.lt/lt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotofficial.lt/en/" />
+    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/" />
   </url>
   <url>
-    <loc>https://corporation.dominikphotoofficial.lt/privacy.html</loc>
+    <loc>https://corporation.dominikphotofficial.lt/lt/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://corporation.dominikphotofficial.lt/en/" />
+    <xhtml:link rel="alternate" hreflang="lt" href="https://corporation.dominikphotofficial.lt/lt/" />
+  </url>
+  <url>
+    <loc>https://corporation.dominikphotofficial.lt/privacy.html</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
